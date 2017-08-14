@@ -4,6 +4,11 @@
     "name": "Chrome Extension Template",
     "version": "1.0",
     "manifest_version": 2,
+    "permissions": [
+      "storage",
+      "http://*/",
+      "https://*/"
+    ],
 
     //recommended
     "description": "Chrome extension description written here.",

@@ -10,6 +10,26 @@ div#main-outer {
     border-radius: 5px;
 }
 
+div#main-counter {
+    position: relative;
+    top: 21px;
+    left: 2px;
+    font-size: 46px;
+}
+
+div#main-count-wrapper {
+    display: none;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    left: 40%;
+    top: 17%;
+    border-radius: 50%;
+    background-color: white;
+}
+
 div#main-inner {
     padding: 8px;
 }
@@ -18,6 +38,11 @@ div#main-title {
     font-size: 16px;
     text-align: center;
     font-weight: bold;
+}
+
+div#main-button-wrapper {
+    margin-top: 7px;
+    text-align: center;
 }
 
 img#main-image {
